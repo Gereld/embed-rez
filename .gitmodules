@@ -1,0 +1,3 @@
+[submodule "embed-rez/3rdparty/pugixml"]
+	path = embed-rez/3rdparty/pugixml
+	url = https://github.com/zeux/pugixml

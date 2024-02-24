@@ -1,0 +1,11 @@
+<!-- specify a C++ namespace where the generated code will reside -->
+<namespace>my_rez</namespace>
+
+<!-- add a resource identified by id -->
+<resource id="some_image">res/img.jpg</resource>
+
+<!-- add a resource identified by path -->
+<resource>res/img.jpg</resource>
+
+<!-- add a recursively a folder, the resources are identified by path -->
+<resource>res/subfolder</resource>

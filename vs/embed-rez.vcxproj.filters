@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="embed-rez">
+      <UniqueIdentifier>{203FCDE9-8CA9-8160-D5E7-320641915FB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="embed-rez\src">
+      <UniqueIdentifier>{378DB37E-A34D-2FB5-6C88-7832D8077491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="embed-rez\src\path">
+      <UniqueIdentifier>{B3FDD011-9FE1-9167-0842-8CBAF4447CE9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\embed-rez\src\path\path.h">
+      <Filter>embed-rez\src\path</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\embed-rez\src\main.cpp">
+      <Filter>embed-rez\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\embed-rez\src\path\path.cpp">
+      <Filter>embed-rez\src\path</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\embed-rez\embed-rez.lua">
+      <Filter>embed-rez</Filter>
+    </None>
+    <None Include="..\premake5.lua" />
+  </ItemGroup>
+</Project>
